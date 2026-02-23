@@ -27,15 +27,15 @@ Dynamically modifies Gmail’s UI to reduce cognitive effort
 
 🟢🟡🔴 Color-coded states: GREEN / AMBER / RED
 
-🧠 On-device Machine Learning (TensorFlow.js)
+1. On-device Machine Learning (TensorFlow.js)
 
-🔒 Privacy-first (no email content, no network requests)
+2. Privacy-first (no email content, no network requests)
 
-🎯 UI interventions (guarded actions, simplified UI)
+3. UI interventions (guarded actions, simplified UI)
 
-📥 Decision Inbox (“Decide later” support)
+4. Decision Inbox (“Decide later” support)
 
-🛠️ Dev Mode for demo and testing
+## Dev Mode for demo and testing
 
 📊 Decision Load States
 State	DLS Range	Meaning
@@ -49,7 +49,7 @@ ML Risk > 65% and
 
 DLS ≥ 45
 
-🤖 Machine Learning (On-Device)
+## Machine Learning (On-Device)
 
 Framework: TensorFlow.js
 
@@ -63,7 +63,7 @@ Output: Overload risk probability (%)
 
 Users can also give manual feedback using “I feel overloaded” to improve training.
 
-🔐 Privacy by Design
+## Privacy by Design
 
 This extension does NOT:
 
@@ -75,7 +75,7 @@ Send data to any server
 
 Only anonymous interaction metadata is stored locally using chrome.storage.local.
 
-🧩 Tech Stack
+## Tech Stack
 
 Chrome Extension – Manifest V3
 
@@ -116,7 +116,7 @@ src/
     types.ts
 
 tests/
-⚙️ Installation & Setup
+## Installation & Setup
 Prerequisites
 
 Node.js 18+
@@ -147,7 +147,7 @@ Show how Gmail UI changes in real time
 
 Explain privacy + on-device ML clearly
 
-🚧 Limitations (MVP)
+## Limitations (MVP)
 
 Gmail DOM may change occasionally
 
@@ -155,7 +155,7 @@ Model accuracy improves with more usage
 
 Interventions are intentionally non-destructive
 
-🌱 Future Enhancements
+## Future Enhancements
 
 Personal DLS baselines per user
 
